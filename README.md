@@ -63,7 +63,7 @@ Linux commands in git bash:
 	- echo secondline>>test.txt
 	- echo {1..110} >> test.txt → prints numbers from 1 to 110
 cat test.txt → display data inside the test file
-	- cat file.txt || more → to display all numbers between 1 to 1000000
+	- cat file.txt "||" more → to display all numbers between 1 to 1000000
 + To remove any file use `rm filename`
 	+ To remove folder `rm -r foldername`
 	+ To move all files at a time `git rm -r cached .`
