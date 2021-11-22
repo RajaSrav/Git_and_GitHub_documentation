@@ -38,45 +38,44 @@ Linux commands in git bash:
 
 + In linux to navigate from one folder to another folder we have to use cd(change directory) `cd foldername`
 + cd → change directory
-	+ Eg: cd folder name
-	+ cd subfolder name
-	+ cd → navigate to the home
-	+ cd.. → navigate to the parent folder
-	+ cd - → going back to the previous location
-	+ cd ../.. → navigate to parent of the parent folder
+	+ Eg: `cd folder name`
+	+ `cd` → navigate to the home
+	+ `cd..` → navigate to the parent folder
+	+ `cd -` → going back to the previous location
+	+ `cd ../..` → navigate to parent of the parent folder
 
-+ PWD - Present Working Directory(folder)
++ `PWD` - Present Working Directory(folder)
 	+ Displays the current location of CLI
 + To create new folder we have to use `mkidir foldername`
-	+ rmdir folder name → removes empty folders
+	+ `rmdir` folder name → removes empty folders
 	- If the folder contains a file then first remove the file present in the folder and come back and remove the folder when it is empty.
 + To see list of files in folder use `ls`
 + To create file `touch | vim(open editor)  filename`
-	+ touch → to create a new file. eg: touch test.txt
-	+ touch file1.txt file2.txt → creating multiple files at a time
-	+ touch file{1..10}.txt →  creating 10 files at a time
+	+ `touch` → to create a new file. eg: touch test.txt
+	+ `touch file1.txt file2.txt` → creating multiple files at a time
+	+ `touch file{1..10}.txt` →  creating 10 files at a time
 	+ When you create file using vim editor after writing of code use `:w` to save code and `:q` to exit from the editor
 	+ To edit file use `nano filename`.It will open nano editor in that write your code.To save and exit nano editor use `ctrl+x` and then click `y` it will goto save mode file path `Filename name to write : filename` and then click on `Enter`.It will go back to project folder.Then see your edited code by `cat filename`
 
-+ echo → to enter data into file eg: echo test want to enter >> filename
-	- Eg: echo hello world >> test.txt
-	- echo secondline>>test.txt
-	- echo {1..110} >> test.txt → prints numbers from 1 to 110
-cat test.txt → display data inside the test file
-	- cat file.txt "||" more → to display all numbers between 1 to 1000000
++ `echo` → to enter data into file eg: echo test want to enter >> filename
+	- Eg: `echo hello world >> test.txt`
+	- `echo secondline>>test.txt`
+	- `echo {1..110} >> test.txt` → prints numbers from 1 to 110
++ `cat test.txt` → display data inside the test file
+	- `cat file.txt ||` more → to display all numbers between 1 to 1000000
 + To remove any file use `rm filename`
 	+ To remove folder `rm -r foldername`
 	+ To move all files at a time `git rm -r cached .`
 + If the file doesn’t exist then create a file and copy data. It adds data to the previous data
-	+ cat file1>>file → create file1 and copy data of file1 into file2
-	- Example:
-		| cat hello.txt>>sample.txt
-		| hello.txt contains “hai”
-		|	- sample.txt file doesn’t exist when we execute it creates the file and copy data from hello.txt to sample.txt
-		| ** o/p **:
-		| hello.txt:” hai”
-		| sample.txt:” hai”
-		| If you do the same process then newly data adds to venkat.txt
+	+ `cat file1 >> file` → create file1 and copy data of file1 into file2
+	- **Example:**
+		> `cat hello.txt>>sample.txt`
+		> O/P hello.txt contains “hai”
+		>	- sample.txt file doesn’t exist when we execute it creates the file and copy data from hello.txt to sample.txt
+	**o/p**:
+		> hello.txt:” hai”
+		> sample.txt:” hai”
+		> If you do the same process then newly data adds to venkat.txt
 
 ##Git commands:
 ===============
