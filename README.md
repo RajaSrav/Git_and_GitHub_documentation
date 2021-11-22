@@ -212,6 +212,13 @@ Delete commit:
 
 
 
+
+
+
+
+
+
+
 ### Markdown:
 =============
 # Git-Github
@@ -254,11 +261,4 @@ emp(2,4)
 -----------
 (Link:https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
  :smile:
-
-
-
-
-
-
-
 
