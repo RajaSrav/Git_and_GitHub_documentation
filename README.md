@@ -69,15 +69,15 @@ Linux commands in git bash:
 + If the file doesn’t exist then create a file and copy data. It adds data to the previous data
 	+ `cat file1 >> file` → create file1 and copy data of file1 into file2
 	- **Example:**
-		- > `cat hello.txt>>sample.txt`
-		- > O/P hello.txt contains “hai”
-		- >	- sample.txt file doesn’t exist when we execute it creates the file and copy data from hello.txt to sample.txt
+		- `cat hello.txt>>sample.txt`
+		- O/P hello.txt contains “hai”
+		- sample.txt file doesn’t exist when we execute it creates the file and copy data from hello.txt to sample.txt
 	- **o/p**:
-		- > hello.txt:” hai”
-		- > sample.txt:” hai”
-		- > If you do the same process then newly data adds to venkat.txt
+		- hello.txt:” hai”
+		- sample.txt:” hai”
+		- If you do the same process then newly data adds to venkat.txt
 
-##Git commands:
+Git commands:
 ===============
 + First we need to initialize git repositroy by `git init`
 + To see  git folder use `ls -a`(It will show hidden files also)
