@@ -189,75 +189,37 @@ Delete commit:
 
 + People who added by m owner they can able to modify files(add/delete) but not delete the project 
 
-# Markdown:
+# React project uplode:
 ===========
-+ For heading use #... ######(from h1 to h6)
-+ **Text in bold format**
-+ *italic text*
-+ ***italic and bold text***
-### Unorderlist:
-==================
-- Main
-	- child1
-	- child2
-		- grand child
-### Orderlist:
-==============
-1. Google
-2. Facebook
-3. Twitter
++ 1. Create git repository with same name(ex: react-app)
 
+2. Install GitHub pages in app folder 
 
+npm install gh-pages --save-dev
 
+3. *Package.json:* u need to add few elements in package.json
 
+"homepage" : "https://username.github.io/appname
 
+Ex: https://Raja.github.io/react-app
 
+Scripts: 5
+"predeploy" : " npm run build",
+ "deploy":"gh-pages  -d  build"
+}
 
+Save it
 
+4.  Git init
 
+5. git remote add origin <GitHub link>
 
+6. npm run deploy
 
+7. Git stasts ( not mandatory)
 
-### Markdown:
-=============
-# Git-Github
+8. Git add . Or git add --all
 
+9. Git commit -am "<message>"
 
-<img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" width="100">
-
-![profilepic](https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png)
-
-# Links
-====
-
-[gmail](https://www.google.com/)
-
-### Table:
-========
- S.No|Name|empid
- ----|----|-----
- 1|kalyan|123
- 2|sam|1243
-## MCQ's:
-========
-
-hwat is capital of india?
-  - [x] Delhi
-  - [ ] Andhra pradesh
-  - [ ] Telangana
-  - [ ]  Chennai
-
-
-
-
-```python
-def emp(a,b):
- return a+b
-emp(2,4)
-```
-
-### Emojis 
------------
-(Link:https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md)
- :smile:
-
+10. Git push origin master *Or* git push -u origin master
